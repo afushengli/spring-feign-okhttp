@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feign-okhttp
+
+feign:
+  okhttp:
+    enabled: true
+  hystrix:
+    enabled: true
